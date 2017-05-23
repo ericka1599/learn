@@ -1,7 +1,12 @@
 var botongenerar = document.getElementById("generar")
 
 botongenerar.OnClick = function() {
-var cant
+	var res = "";
 
-	for i in cant
+	for(var i = 0; i < cantidad; i++) {
+		//algo para que vaya agregando res
+
+	}
+
+	contenedor.innerHTML = res;
 }
