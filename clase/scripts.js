@@ -1,12 +1,13 @@
 var botongenerar = document.getElementById("generar")
+var valor = document.getElementById("cantidad")
+var color = document.getElementById("seleccion")
 
 botongenerar.OnClick = function() {
-	var res = "";
 
-	for(var i = 0; i < cantidad; i++) {
-		//algo para que vaya agregando res
+	for(var i = 0; i < valor.value; i++) {
+		var cuadrito document.createElement ("div")
+		cuadrito.setAttribute("class", "cuadros ") + (color.value);
+		document.getElementById("squares").appendChild(cuadrito)
 
 	}
-
-	contenedor.innerHTML = res;
 }
